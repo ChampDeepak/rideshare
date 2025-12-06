@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: uber
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/rideapp
+
+application:
+  security:
+    jwt:
+      secret-key: 4D6251655468576D5A7134743777217A25432A462D4A614E645267556B587032
+      expiration: 86400000 # 24 hours
